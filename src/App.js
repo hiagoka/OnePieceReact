@@ -61,7 +61,7 @@ function App() {
   return(
     <div className="App">
       <Banner />
-      <Formulario nomesDaTripulacao={tripulacao.map(tripulacao => tripulacao.nome)} aoColaboradorCadastrado = {colaborador => aoNovoColaboradorAdicionado(colaboradores)}/>
+      <Formulario nomesDaTripulacao={tripulacao.map(tripulacao => tripulacao.nome)} aoColaboradorCadastrado = {colaborador => aoNovoColaboradorAdicionado(colaborador)}/>
       {tripulacao.map(tripulacao => <Tripulacao 
       key={tripulacao.nome} 
       nome ={tripulacao.nome} 
