@@ -20,8 +20,11 @@ const Formulario = (props) => {
             funcao,
             imagem,
             tripulacao
-
         })
+        setNome('')
+        setFuncao('')
+        setImagem('')
+        setTripulacao('')
     }
     return (
         <section className="formulario">
