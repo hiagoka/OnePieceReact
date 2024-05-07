@@ -1,4 +1,4 @@
-.botao{
+.botao {
     background-color: #3399CC;
     border-radius: 10px;
     font-weight: 700;
@@ -10,6 +10,6 @@
     margin: 32px 0;
 }
 
-.botao:hover{
+.botao:hover {
     color: red;
 }

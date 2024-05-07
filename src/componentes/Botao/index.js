@@ -1,9 +1,9 @@
 import './botao.css'
 
 const Botao = (props) => {
-    return(
+    return (
         <button className='botao'>
-        {props.children}
+            {props.children}
         </button>
     )
 }
