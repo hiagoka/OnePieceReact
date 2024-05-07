@@ -1,4 +1,5 @@
 import Banner from './componentes/Banners/Banner';
+import Rodape from './componentes/Rodape/rodape';
 import Formulario from './componentes/Formulario';
 import { useState } from 'react';
 import Tripulacao from './componentes/Tripulacao/Tripulacao';
@@ -69,7 +70,7 @@ function App() {
         corSecundaria={tripulacao.corSecundaria}
         colaboradores={colaboradores.filter(colaborador => colaborador.tripulacao === tripulacao.nome)}
       />)}
-
+      <Rodape />
     </div>
   );
 }

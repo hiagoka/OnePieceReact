@@ -1,0 +1,21 @@
+.rodape {
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3399CC;
+    color: #FFFFFF;
+    align-items: center;
+    box-shadow: 8px 8px 16px rgba(0,0,0,0.8);
+}
+
+.icons {
+    display: flex;
+    gap: 46px;
+    width: 18vw;
+    height: 4vh;
+}
+
+.logo_foto{
+    width: 50px;
+    height: 50px;
+}
